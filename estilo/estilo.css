@@ -1,0 +1,182 @@
+@font-face{
+				font-family:Merriweather-Italic;
+				src: url(../fonts/Merriweather-Italic.ttf);
+				}
+				p,a{
+				font-family:Merriweather-Italic;
+				}
+				/* Resolução de celular*/
+#corpo{
+	font-size:16px;
+}
+#corpo a:link{
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+	cursor:pointer;
+}
+	/*Nav*/
+nav ul li a{
+	width:100%;
+	text-align:center;
+	height:40px;
+}
+#corpo nav li a{
+	font-family:arial;
+	font-size:16px;
+	color:#000;
+}
+	/*Informações*/
+#cabecalho{
+	background:#0ff;
+	background: linear-gradient(to right,#0ff, #0ff,#66FFFF,#fff);
+}
+#mais a:nth-child(12){
+	font-size:16px;
+	text-decoration:underline;
+}
+.espaco{
+	margin-top:50px;
+	margin-bottom:40px;
+}
+	/*Horarios*/
+.hora{
+	margin-top:100px;
+}
+#tabelagrande th{
+	width:100px;
+	height:50px;
+}
+#tabelagrande td{
+	width:50px;
+	height:50px;
+}
+  /*Planos*/
+#tabela th{
+	border:solid 1px;
+	background:#0ff;
+}
+#tabela tr td{
+	border:solid 1px;
+	background: linear-gradient(to right,#0ff, #0ff,#66FFFF,#fff);
+}
+	/*icones footer*/
+.icones{
+	margin:20px 0 40px 0;
+	text-align:center;
+}
+.cimamap{
+	margin-top:30px;
+}
+.icones{
+	margin:40px 0 10px 0;
+}
+#copi{
+	margin-top:80px;
+}
+
+@media(max-width:990px){
+	.pull-right{float:left!important;width:100%;margin:0!important;}
+	#corpo nav li a{color:#fff}
+}
+/* Daqui pra baixo resolução de computador e tablet*/
+@media screen and (min-width: 420px){
+		/* Declarações Body*/
+#corpo{
+font-size:16px;
+margin:auto;
+width:100%;
+}
+nav ul li a{
+	width:100%;
+	text-align:center;
+	height:40px;
+}
+#corpo a:link{
+	color:#000000;
+	font-weight:bold;
+	cursor:pointer;
+	text-decoration:none;
+}
+		/*Declarações header*/
+	/*Nav*/
+	#corpo nav li a{
+		text-decoration:none;
+		color:white;
+	}
+#corpo nav li a:link{
+	font-family:arial;
+	font-size:15px;
+	color:#fafafa;
+	width:120px;
+}
+#corpo nav li a:hover{
+	color:#0CF;
+}
+#cabecalho{
+	background:#0ff;
+	background: linear-gradient(to right,#0ff, #0ff,#66FFFF,rgb(155, 219, 221));
+}
+#logo{
+	margin:180px 0 0 50px;
+}
+ 	/*Informações*/
+#mais{
+	margin-top:140px;
+	margin-bottom:180px;
+}
+#mais a{
+	color:#000;
+}
+#mais a:nth-child(12){
+	font-size:18px;
+	text-decoration:underline;
+}
+	 /*Titulo horário*/
+.hora{
+margin-top:50px;
+margin-bottom:50px;
+}
+	/*Tabela horário*/
+#tabelagrande th{
+	width:100px;
+	height:50px;
+}
+#tabelagrande td{
+	width:100px;
+	height:50px;
+}
+#tabelagrande tr td {
+	border: solid 1px;
+}
+	/*Titulo Planos*/
+#planos{
+	margin-top:50px;
+}
+	/*Tabela planos*/
+#tabela{
+	margin-bottom:50px;
+}
+#tabela th{
+	border:solid 1px;
+	background:#0ff;
+}
+#tabela tr td{
+	border:solid 1px;
+	background: linear-gradient(to right,#0ff, #0ff,#66FFFF,#fff);
+}
+	/*Footer*/
+.cimamap{	/*container do mapa*/
+	margin-top:30px;
+}
+
+.icones{
+	margin-top:40px;
+}
+#copi{
+	margin-top:60px;
+}
+#rodape{
+	background:#000;
+}
+}
